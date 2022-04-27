@@ -1,0 +1,18 @@
+.top {
+    min-height: 70px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.top a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+.top a[class="active"] {
+    color: brown;
+}
